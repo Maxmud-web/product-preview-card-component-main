@@ -1,0 +1,32 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* { 
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+}
+:root { 
+    --primary-color-green1: hsl(158, 36%, 37%); 
+    --primary-color-green2: hsl(158, 42%, 18%) ;
+
+    --natural-color-black: hsl(212, 21%, 14%) ;
+    --natural-color-Grey: hsl(228, 12%, 48%) ;
+    --natural-color-Cream: hsl(30, 38%, 92%) ;
+    --natural-color-White: hsl(0, 0%, 100%) ;
+    
+    --body-font-size: 14px; 
+
+}
+head { 
+    height: 100vh;
+    width: 100%;
+}
+main  { 
+    margin: 0;
+    padding: 0;
+    border: 1px solid black; 
+    flex-direction: row;
+    width: 5rem;
+}
+
